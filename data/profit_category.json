@@ -1,0 +1,62 @@
+[
+  {
+    "Region": "West",
+    "Category": "Office Supplies",
+    "TotalProfit": 52609.85
+  },
+  {
+    "Region": "East",
+    "Category": "Technology",
+    "TotalProfit": 47462.04
+  },
+  {
+    "Region": "West",
+    "Category": "Technology",
+    "TotalProfit": 44303.65
+  },
+  {
+    "Region": "East",
+    "Category": "Office Supplies",
+    "TotalProfit": 41014.58
+  },
+  {
+    "Region": "Central",
+    "Category": "Technology",
+    "TotalProfit": 33697.43
+  },
+  {
+    "Region": "South",
+    "Category": "Technology",
+    "TotalProfit": 19991.83
+  },
+  {
+    "Region": "South",
+    "Category": "Office Supplies",
+    "TotalProfit": 19986.39
+  },
+  {
+    "Region": "West",
+    "Category": "Furniture",
+    "TotalProfit": 11504.95
+  },
+  {
+    "Region": "Central",
+    "Category": "Office Supplies",
+    "TotalProfit": 8879.98
+  },
+  {
+    "Region": "South",
+    "Category": "Furniture",
+    "TotalProfit": 6771.21
+  },
+  {
+    "Region": "East",
+    "Category": "Furniture",
+    "TotalProfit": 3046.17
+  },
+  {
+    "Region": "Central",
+    "Category": "Furniture",
+    "TotalProfit": -2871.05
+  }
+]

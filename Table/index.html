@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superstore</title>
+
+    <link rel="stylesheet" href="/Table/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet"/>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Menambahkan Datatables -->
+    <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js" ></script>
+
+    <!-- DataTables Responsive CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="/" class="navbar-logo">Super<span>Store</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#Chart">Chart</a>
+        <a href="../index.html#team">Team</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="content">
+      <!-- Filters Start -->
+      <div class="filters-container">
+        <!-- Filter 1 -->
+        <div>
+            <label for="columnFilter1">Select Column:</label>
+            <select id="columnFilter1">
+                <option value="">Select Column</option>
+            </select>
+        </div>
+        <div>
+            <label for="valueFilter1">Select Value:</label>
+            <select id="valueFilter1" disabled>
+                <option value="">Select Value</option>
+            </select>
+        </div>
+    
+        <!-- Filter 2 -->
+        <div>
+            <label for="columnFilter2">Select Column 2:</label>
+            <select id="columnFilter2">
+                <option value="">Select Column</option>
+            </select>
+        </div>
+        <div>
+            <label for="valueFilter2">Select Value 2:</label>
+            <select id="valueFilter2" disabled>
+                <option value="">Select Value</option>
+            </select>
+        </div>
+    </div>
+    <!-- Filters End -->
+
+    <!-- Datatables Start -->
+    <div class="table-wrapper">
+        <table id="table" class="display">
+            <thead>
+                <tr>
+                    <th>Row ID</th>
+                    <th>Order ID</th>
+                    <th>Order Date</th>
+                    <th>Ship Date</th>
+                    <th>Ship Mode</th>
+                    <th>Customer ID</th>
+                    <th>Customer Name</th>
+                    <th>Segment</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Postal Code</th>
+                    <th>Region</th>
+                    <th>Product ID</th>
+                    <th>Category</th>
+                    <th>Sub-Category</th>
+                    <th>Product Name</th>
+                    <th>Sales</th>
+                    <th>Quantity</th>
+                    <th>Discount</th>
+                    <th>Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <!-- Datatables End -->  
+  </div>
+
+  <!-- Footer start -->
+  <footer>
+    <!-- <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#Chart">Chart</a>
+      <a href="../index.html#team">Team</a>
+      <a href="../index.html#contact">Contact</a>
+    </div> -->
+
+    <div class="credit">
+      <p>Created by <a href="">Team 14 Section Palembang</a>. &copy;2024.</p>
+    </div>
+    
+  </footer>
+  <!-- Footer end -->
+
+  <script>
+    feather.replace();
+  </script>
+  <script defer src="/Table/script.js"></script>
+  </body>
+</html>

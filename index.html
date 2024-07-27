@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superstore</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <a href="/" class="navbar-logo">Super<span>Store</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#Chart">Chart</a>
+            <a href="/Table/index.html">Table</a>
+            <a href="team.html">Team</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+  
+    <!-- Hero Section start -->
+    <section class="hero" id="Home">
+        <main class="content">
+            <h1>Super<span>store.</span></h1>
+        </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <div class="row">
+            <div class="about-img">
+                <img src="/img/Shopping Rack.jpeg" alt="Tentang Kami" />
+            </div>
+            <div class="content">
+                <h3>Super<span>store</span></h3>
+                <p>
+                    Selamat datang di Superstore, tempat inovasi bertemu dengan kenyamanan! Kami adalah superstore terkemuka di Amerika Serikat, yang didedikasikan untuk menyediakan furnitur perkantoran berkualitas tinggi, perlengkapan kantor, dan solusi kantor berteknologi terkini untuk menyempurnakan ruang kerja Anda. Misi kami adalah menciptakan lingkungan kerja yang menginspirasi dan efisien bagi bisnis dan individu, menawarkan layanan lengkap untuk semua kebutuhan kantor Anda terus.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Chart Start -->
+    <section id="Chart" class="Chart">
+        <h2 class="C">Chart</h2>
+
+        <h4 class="chart-detail">Monthly Sales & Profit in 2017</h4>
+        <div class="row">
+            <div class="chart2">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="content">
+                <p>Dari chart disamping bisa dilihat bahwa penjualan dan keuntungan di setiap bulan dan juga keuntungan di setiap bulannya, yang mana dari chart disamping menunjukkan bahwa penjualan terendah berada di bulan Februari Yaitu hanya mencapai 20 Ribu penjualan saja, Sedangkan Profit Terendah berada di Bulan April Yaitu Hanya Meraih Keuntungan Sebesar 933 Saja. Selanjutnya adalah penjualan Terbanyak berada di Bulan November yakni Mencapai Hingga 118 Ribu Penjualan ,Walaupun Dibulan November Terjadi Penjualan Terbanyak Bukan Berarti Meraih keuntungan Terbanyak Pula, Keuntungan Atau Profit Terbanyak Di Raih pada Bulan Maret Yakni Mencapai Keuntungan Sebesar 14 Ribu.</p>
+            </div>
+        </div>
+
+        <h4 class="chart-detail">Company Profit from Product Category In Each Region</h4>
+        <div class="row">
+            <div class="chart2">
+                <canvas id="profitCategory"></canvas>
+            </div>
+            <div class="content">
+                <p>Dari chart disamping bisa dilihat keuntungan perusahaan berdasarkan kategori produk di setiap wilayah yaitu mencakup kategori Furniture, Office Supplies, dan Technology dan wilayah West, East, Central, dan South dimana dari diagram disamping menunjukkan bahwa keuntungan tertinggi pada wilayah West dari kategori Office Supplies sebesar 52 Ribu, pada wilayah East dengan keuntungan tertinggi dari kategori Technology sebesar 42 Ribu, pada wilayah Central dengan keuntungan tertinggi dari kategori Technology sebesar 33 Ribu, dan yang terakhir pada wilayah South dengan keuntungan tertinggi dari kategori Technology sebesar 19, 991 Ribu.</p>
+            </div>
+        </div>
+
+        <h4  class="chart-detail">Top 5 Product With the Highest Profit</h4>
+        <div class="row">
+            <div class="chart2">
+                <canvas id="profitProduct"></canvas>
+            </div>
+            <div class="content">
+                <p>Dari chart disamping bisa dilihat Top 5 produk dengan keuntungan tertinggi yang mana dari diagram disamping menunjukkan bahwa Canon imageCLASS 2200 Advanced Copier berada pada urutan pertama dengan keuntungan tertinggi sebesar 52Ribu, pada urutan kedua terdapat Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Blind dengan keuntungan tertinggi sebesar 7Ribu, pada urutan ketiga terdapat Hawlett Packard Laser Jet 3310 Copier dengan keuntungan tertinggi sebesar 6Ribu, pada urutan keempat terdapat Canon PC1060 Personal Laser Copier dengan keuntungan tertinggi sebesar 4,570Ribu, dan yang terakhir pada urutan kelima terdapat HP Designjet T520 Inkjet Large Format Printer – 24 Color dengan keuntungan tertinggi sebesar 4,094Ribu.</p>
+            </div>
+        </div>
+
+        <h4  class="chart-detail">Total Of Purchase Based On Segment From 2014 - 2017</h4>
+        <div class="row">
+            <div class="chart2">
+                <canvas id="totalCustomer"></canvas>
+            </div>
+            <div class="content">
+                <p>Dari chart disamping bisa dilihat Total Pembelian berdasarkan segmen pelanggan dari tahun 2014-2017 mencakup Consumer, Corporate, dan Home office yang mana dari diagram disamping menunjukkan bahwa dari tahun 2014-2017 pada urutan pertama segmen Consumer adalah segmen yang paling banyak melakukan pembelian pada 2014 sebesar 1.070 Ribu, 2015 sebesar 1.125 Ribu, 2016 sebesar 1.328 Ribu, dan 2017 sebesar 1.668 Ribu dikarenakan Consumer individu sering kali membutuhkan produk furnitur perkantoran, perlengkapan kantor, dan teknologi perkantoran untuk penggunaan pribadi yang lebih rutin dan berkala, Consumer mungkin membeli barang-barang ini untuk memenuhi kebutuhan harian di rumah, seperti meja kerja, kursi ergonomis, alat tulis, dan perangkat teknologi yang menunjang produktivitas sehari-hari dan Banyak Consumer individu yang bekerja dari rumah memerlukan fasilitas kantor yang nyaman dan efisien untuk meningkatkan produktivitas. Hal ini meningkatkan permintaan untuk furnitur perkantoran, perlengkapan kantor dan teknologi perkantoran di kalangan konsumen individu.</p>
+            </div>
+        </div>
+        
+        <h4  class="chart-detail">Total of Profit in Each Region</h4>
+        <div class="row">
+            <div class="chart2">
+                <canvas width="300" height="300" id="profitRegion"></canvas>
+            </div>
+            <div class="content">
+                <p>Dari chart disamping bisa dilihat Total Keuntungan berdasarkan tiap wilayah yang mencakup West (Barat), East (Timur), South (Selatan), dan Central (Pusat) yang mana dari diagram disamping menunjukkan bahwa pada urutan pertama yaitu wilayah West dengan total keuntungan tertinggi sebesar 108 Ribu, pada urutan kedua yaitu wilayah East dengan total keuntungan sebesar 91 Ribu, pada urutan ketiga yaitu wilayah South dengan total keuntungan sebesar 46 Ribu, dan terakhir pada urutan keempat yaitu wilayah Central dengan total keuntungan terendah sebesar 39 Ribu saja. Wilayah West mungkin memiliki persaingan yang lebih tinggi, tetapi juga lebih banyak peluang, sehingga dapat menghasilkan keuntungan yang lebih besar. Sedangkan wilayah Central sebaliknya.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Chart End -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <form id="contactForm" action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="Your Name Here" name="name" id="name" />
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="email" placeholder="Your Email Here" name="email" id="email" />
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="number" placeholder="Your Phone Number Here" name="phone" id="phone" />
+                </div>
+                <div class="input-group">
+                    <i data-feather="message-circle"></i>
+                    <input type="text" placeholder="Your Message Here" name="message" id="message" />
+                </div>
+                    <button type="submit" class="btn" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Popup Section start -->
+    <div class="popup" id="popup">
+        <img src="./img/ceklis.png" alt="Checked">
+        <h2>Thank You</h2>
+        <p>Your form have been successfully submitted. Thanks!</p>
+        <button class="pushable" onclick="closePopup()">
+            <span class="front">OK</span>
+        </button>
+    </div>
+
+    <div class="popup" id="error-popup">
+        <img src="./img/Error.png" alt="Error">
+        <h2>Error</h2>
+        <p>Please complete the contact form.</p>
+        <button class="pushable" onclick="closeErrorPopup()">
+            <span class="front">OK</span>
+        </button>
+    </div>
+    <!-- Popup Section end -->
+  
+      <!-- Footer start -->
+      <footer>
+        <!-- <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div> -->
+
+        <!-- <div class="links">
+              <a href="#">Home</a>
+              <a href="#about">About</a>
+              <a href="#chart">Chart</a>
+              <a href="#table">Table</a>
+              <a href="#team">Team</a>
+              <a href="#contact">Contact</a>
+        </div> -->
+
+        <div class="credit">
+              <p>Created by <a href="">Team 14 Section Palembang</a>. &copy;2024.</p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+  
+      <!-- Feather Icons -->
+      <script>
+          feather.replace();
+      </script>
+  
+      <!-- My Javascript -->
+       <script src="script.js"></script>
+       <script src="chart/chart.js"></script>
+       <script src="chart/profit_category.js"></script>
+       <script src="chart/profit_product.js"></script>
+       <script src="chart/totalCust.js"></script>
+       <script src="chart/profit_region.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
